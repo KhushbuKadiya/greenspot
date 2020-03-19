@@ -1,0 +1,762 @@
+/*
+ * Title:   Custom Style File
+ * Author:  http://themeforest.net/user/soaptheme 
+ */
+/*.travelo-signup-box, .travelo-login-box{
+ 	background: #f5f5f5;
+ }*/
+.tab-container ul.tabs li.active > a, .tab-container ul.tabs li:hover > a {
+    color: #fff;
+	background: #fff;
+	background: #fdb714;
+}
+/*.tab-container ul.tabs li a{
+	background: #fdb714;
+	color: #fff;
+}*/
+.tab-container .tab-content {
+    background: #fff;
+	border: 1px solid #fdb714;
+}
+.travelo-signup-box .email-signup{
+	display: block;
+}
+.travelo-signup-box .email-signup{
+	margin: 0px;
+}
+
+
+.filters-container ul.filters-option {
+    margin-bottom: 0;
+    max-height: 205px;
+    overflow: auto;
+}
+.icon-box.style1 > i.fa{
+	font-size: 1.5em !important;
+}
+
+.hotel-detail-stay .intro{
+  background: #f5f5f5;
+}
+.hotel-detail-stay .intro.table-wrapper{
+  padding: 0;
+  border-spacing: 15px;
+  border-collapse: separate;
+  table-layout: fixed;
+}
+.hotel-detail-stay .intro.table-wrapper > *{
+  border-collapse: collapse;
+}
+.hotel-detail-stay .intro.table-wrapper .table-cell{
+  background: #fff;
+}
+.hotel-detail-stay .intro.table-wrapper .table-cell:first-child{
+  margin-bottom: 15px;
+}
+/*.hotel-detail-stay .intro.table-wrapper .table-cell:last-child{
+  padding-left: 0;
+  padding-right: 0;
+}*/
+
+.hotel-detail-stay .features{
+  text-transform: uppercase;
+  padding: 20px 20px !important;
+  font-size: 0.8333em;
+}
+.hotel-detail-stay .features li{
+  line-height: 2em;
+}
+.hotel-detail-stay .features label{
+  margin: 0;
+  width: 110px;
+  border-right: 1px solid #f5f5f5;
+  margin-right: 20px;
+  color: #01b7f2;
+  white-space: nowrap;
+}
+.hotel-detail-stay .long-description{
+  margin-top: 25px;
+  padding: 0px;
+}
+#hotel-description .long-description, #cruise-description .long-description, #travel-guide .long-description{
+	padding: 0px;
+}
+
+.hotel-detail-stay .after-colon label{
+	position: relative;
+	width: 110px;
+	color: #01b7f2;
+	margin-right: 10px;
+}
+.hotel-detail-stay .after-colon label::before {
+    position: absolute;
+    content: ":";
+    right: 0;
+    color: #838383;
+}
+.hotel-avail-info .icon-box.style1 {
+    height: 35px;
+    background: #f5f5f5;
+    line-height: 35px;
+}
+.hotel-avail-info .icon-box.style1 > i {
+    width: 35px;
+	line-height: 35px;
+    font-size: 1.5em;
+}
+#hotel-availability .update-search > div,
+#tour-availability .update-search > div{
+	margin-bottom: 15px;
+}
+.hotel-avail-info p{
+	margin-bottom: 0px;
+}
+
+.hotel-avail-info h5.title {
+    margin-bottom: 5px;
+}
+.hotel-avail-info .address, .hotel-avail-info .email, .hotel-avail-info .phone{
+	padding-left: 35px !important;
+}
+.hotel-avail-info i.circle {
+    position: absolute;
+    font-size: 1.3em;
+    color: #fdb714;
+    left: 5px;
+    top: 0px;
+    width: 1.5em;
+	height: 1.5em;
+	line-height: 1.3333em;
+}
+.hotel-avail-info h4.title{
+	margin-bottom: 5px;
+}
+.amenities .filters-container.toggle-container .panel.style1 .panel-title {
+    padding-left: 0;
+}
+.amenities .toggle-container .panel .panel-title a {
+    padding: 0;
+}
+.amenities .toggle-container .panel.style1.arrow-right .panel-title > a {
+    padding-right: 0;
+}
+.amenities .filters-container.toggle-container .panel.style1 {
+    margin-bottom: 0;
+}
+.amenities .toggle-container .panel h4.panel-title {
+    font-size: 1em;
+    /*color: #838383;*/
+    font-weight: bold;
+}
+.amenities .toggle-container .panel h4.panel-title i.fa-tripadvisor{
+	font-weight: normal;
+}
+.amenities .toggle-container .panel.style1 .panel-content {
+    padding: 10px;
+}
+.amenities .after-colon label{
+	margin-bottom: 0;
+}
+.amenities .after-colon li{
+	margin-bottom: 5px;
+}
+#hotel-amenities .amenities.style1 .icon-box.style1{
+	background: #f5f5f5;
+}
+#hotel-amenities .amenities > div{
+	padding: 0px;
+	margin-bottom: 1px;
+}
+.amenities .toggle-container .panel.style1 .panel-title > a::before{
+	color: #fff;
+	background: #000;
+}
+.amenities .toggle-container .panel.style1 .panel-title > a.collapsed::before{
+	background: #01b7f2;
+}
+.contact-box .contact-details h4{
+	margin-bottom: 0px;
+}
+.contact-box .contact-details h4 i{
+	margin-right: 7px;
+}
+.contact-box .contact-details p{
+	margin-left: 24px;
+	margin-bottom: 5px;
+}
+.contact-email-span i{
+	font-size: 1.3333em;
+}
+.contact-box .contact-details .contact-email{
+	padding: 0 7px;
+}
+.after-colon label{
+	position: relative;
+	color: #01b7f2;
+}
+.after-colon label::before {
+    position: absolute;
+    content: ":";
+    right: 0;
+    color: #838383;
+}
+.amenities .after-colon label.col-md-5{
+	padding-right: 0px;
+	padding-left: 7px;
+}
+.amenities .after-colon div.col-md-7{
+	padding-right: 7px;
+}
+
+.travelo-signup-box .signup-email i {
+    font-size: 1.2em;
+    margin-right: 5px;
+}
+.travelo-signup-box .signup-email-section{
+	background: #01b7f2;
+    margin: -20px -20px 10px -20px;
+    padding: 10px;
+}
+.travelo-signup-box .signup-email{
+	color: #ffffff;
+    font-size: 1.2em;
+}
+
+/******** Home page design CSS  ********/
+.search-box-wrapper .search-box>ul.search-tabs li>a i {
+    font-size: 1.6666em;
+    vertical-align: middle;
+    margin-right: 10px;
+    line-height: 0;
+}
+.search-box-wrapper .search-box>ul.search-tabs li>a:hover i:before, .search-box-wrapper .search-box > ul.search-tabs li > a i.far {
+    -webkit-animation: toTopFromBottom 0.35s forwards;
+    -moz-animation: toTopFromBottom 0.35s forwards;
+    animation: toTopFromBottom 0.35s forwards;
+}
+.search-box-wrapper .search-box>ul.search-tabs{
+	display: table;
+    margin: 0 auto;
+}
+.search-box{
+	margin-top: -95px;
+}
+ul.search-tabs li a{
+	height: 55px;
+	line-height: 55px;
+	padding: 0px 45px;
+	font-size: 1.1em;
+}
+.search-box-wrapper .search-box > ul.search-tabs li > a i.far{
+	font-size: 1.35em;
+}
+.search-box-wrapper .search-box > ul.search-tabs li > a i.far:before,
+.search-box-wrapper .search-box > ul.search-tabs li > a i.fas:before,
+.search-box-wrapper .search-box > ul.search-tabs li > a i.fa:before{
+	display: inline-block;
+	line-height: 1em;
+}
+
+/**** User rating section css ***/
+.user-rating {
+    float:left;
+    margin-top: 6px;
+}
+.user-rating span { 
+	float:right;
+	position:relative;
+	line-height: 1.4em;
+}
+.user-rating span input {
+    position:absolute;
+    top:0px;
+    left:0px;
+    opacity:0;
+}
+.user-rating span label:before { 
+    margin: 3px 3px 0px 3px;
+    font-size: 2.5em;
+    font-family: 'Glyphicons Halflings';
+    display: inline-block;
+    content: "\e006";
+    color: #ccc;
+    font-weight: bold;
+}
+.user-rating span label{
+	margin-bottom: 0px;
+}
+.user-rating span:hover{
+	cursor: pointer;
+}
+.user-rating span:hover ~ span label:before,
+.user-rating span:hover label:before,
+.user-rating span.checked label:before,
+.user-rating span.checked ~ span label:before {
+    color:#fdb714;
+    cursor: pointer;
+}
+
+#hotel-write-review .review-form{
+	padding: 0px;
+}
+
+[class^="fa"].circle{
+	border: 1px solid;
+	width: 1.8em;
+	height: 1.8em;
+	line-height: 1.7333em;
+	-webkit-border-radius: 50% 50% 50% 50%;
+	-moz-border-radius: 50% 50% 50% 50%;
+	-ms-border-radius: 50% 50% 50% 50%;
+	border-radius: 50% 50% 50% 50%;
+	display: inline-block;
+	text-align: center;
+}
+
+/******** Home page design CSS  ********/
+.slide-search-content{
+	position: relative;
+}
+.search-box-fixed{
+	position: absolute;
+	/*top: 100px;*/
+	top: 50%;
+ 	transform: translateY(-50%);
+	z-index: 100;
+	right: 0;
+	left: 0;
+	margin: 0px auto;
+	width: 210px;
+	border-radius: 32px;
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 700;
+    cursor: pointer;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,.2);
+}
+.search-box-fixed{
+	border-radius: 32px;
+}
+.search-box-wrapper.style2 .search-box{
+	border-radius: 32px;
+}
+.search-dropdown{
+	background: #ffffff;
+    border-radius: 32px;
+    padding: 10px 20px;
+    text-align: center;
+    color: #000;
+}
+.search-dropdown i{
+	margin-left: 10px;
+	/*color: #01b7f2;*/
+}
+.search-dropdown:hover{
+	color: #01b7f2;
+}
+/*.search-dropdown:hover i{
+	color: #fdb714;
+}*/
+.search-box-content{
+	position: relative;
+	overflow: hidden;
+	border-radius: 2px;
+	background-color: #fff;
+	transition: height .15s;
+	width: 500px;
+	margin: 0px auto;
+	display: none;
+}
+.search-typed-text{
+	margin: 35px 22px 12px;
+	font-size: 1.5em;
+}
+.search-typed-text input.input-text{
+	/*border:none;
+	border-bottom: 1px solid #e5e5e5;
+	background: transparent;*/
+	color: #333;
+}
+/*.search-typed-text input.input-text:focus{
+    border: none;
+    border-bottom-color: rgb(1, 183, 242);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    box-shadow: none;
+}*/
+.search-box-spacing{
+	margin-bottom: 15px;
+}
+.search-item-list{
+	font-size: 16px;
+	line-height: 20px;
+	padding: 12px 22px;
+	font-weight: 700;
+	transition: padding .2s ease;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+}
+.search-item-list:hover{
+	cursor: pointer;
+	color: #000;
+	background-color: #f2f2f2;
+	padding-left: 27px;
+	padding-right: 17px;
+	transition: all .2s linear;
+}
+.search-title{
+	font-size: 16px;
+	line-height: 20px;
+	font-weight: 700;
+	cursor: pointer;
+	color: #2c2c2c;
+	-webkit-flex: 1;
+	-ms-flex: 1;
+	flex: 1;
+}
+.search-subtitle{
+	display: block;
+	font-size: 14px;
+	font-weight: 400;
+	color: #4a4a4a;
+	margin-top: 3px;
+}
+.search-recenet-item{
+	padding: 12px 22px;
+	font-size: 12px;
+	font-weight: 400;
+	color: #4a4a4a;
+}
+.search-content-list{
+	max-height: 300px;
+	overflow: auto;
+}
+.search-close{
+	position: absolute;
+	z-index: 1;
+	top: 0;
+	right: 0;
+	text-align: center;
+	transition: opacity .2s;
+	width: 40px;
+	height: 40px;
+	cursor: pointer;
+	color: #01b7f2;
+}
+.search-close i{
+	line-height: 40px;
+	font-size: 1.5em;
+}
+.select-dropdown-filter-container .selector.dropdown{
+	cursor: pointer;
+	line-height: initial;
+}
+.select-dropdown-filter{
+	position: absolute;
+	width: 100%;
+    /*box-shadow: 0px 1px 4px 1px #ccc;*/
+    background-color: #fff;
+}
+.select-dropdown-filter.dropdown-menu{
+	border: none;
+	border-radius: 0px;
+	box-shadow: 0px 1px 4px 1px #ccc;
+}
+.select-dropdown-filter li {
+    padding: 0px 5px;
+    font-size: 12px;
+}
+.select-dropdown-filter ul.check-square li::before{
+	float: left;
+	display: block;
+	line-height: 14px;
+	text-align: center;
+	margin-top: 5px;
+}
+.select-dropdown-filter ul.check-square li a{
+	display: block;
+}
+.select-price-box{
+	padding: 10px 10px 5px 10px;
+}
+.ui-slider.ui-widget-content{
+	background: #e0e0e0;
+}
+.listing-style3 [class^="soap-icon"].circle:hover::before{
+	-webkit-animation: none;
+	-moz-animation: none;
+	animation: none;
+}
+.listing-style3 [class^="soap-icon"].circle{
+	color: #01b7f2;
+}
+/*#content .loading-page.style1 {
+    background-color: rgba(26, 35, 47, 0.5);
+    background-image: -moz-radial-gradient(center center, circle cover, rgba(39, 54, 72, 0.5), rgba(13, 18, 24, 0.5) 100%);
+    background-image: -webkit-radial-gradient(center center, circle cover, rgba(39, 54, 72, 0.5), rgba(13, 18, 24, 0.5) 100%);
+    background-image: -o-radial-gradient(center center, circle cover, rgba(39, 54, 72, 0.5), rgba(13, 18, 24, 0.5) 100%);
+    background-image: -ms-radial-gradient(center center, circle cover, rgba(39, 54, 72, 0.5), rgba(13, 18, 24, 0.5) 100%);
+    background-image: radial-gradient(center center, circle cover, rgba(39, 54, 72, 0.5), rgba(13, 18, 24, 0.5) 100%);
+}*/
+
+.required-field-block {
+    position: relative;   
+}
+
+.required-field-block .required-icon {
+    display: inline-block;
+    vertical-align: middle;
+    margin: -0.25em 0.25em 0em;
+    background-color: #E8E8E8;
+    border-color: #E8E8E8;
+    padding: 0.5em 0.8em;
+    color: rgba(0, 0, 0, 0.65);
+    text-transform: uppercase;
+    font-weight: normal;
+    border-radius: 0.325em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: background 0.1s linear;
+    -moz-transition: background 0.1s linear;
+    transition: background 0.1s linear;
+    font-size: 75%;
+}
+	
+.required-field-block .required-icon {
+    background-color: transparent;
+    position: absolute;
+    top: 0em;
+    right: 0em;
+    z-index: 10;
+    margin: 0em;
+    width: 30px;
+    height: 30px;
+    padding: 0em;
+    text-align: center;
+    -webkit-transition: color 0.2s ease;
+    -moz-transition: color 0.2s ease;
+    transition: color 0.2s ease;
+}
+
+.required-field-block .required-icon:after {
+    position: absolute;
+    content: "";
+    right: 1px;
+    top: 1px;
+    z-index: -1;
+    width: 0em;
+    height: 0em;
+    border-top: 0em solid transparent;
+    border-right: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+    border-left: 0em solid transparent;
+    border-right-color: inherit;
+    -webkit-transition: border-color 0.2s ease;
+    -moz-transition: border-color 0.2s ease;
+    transition: border-color 0.2s ease;
+}
+.required-field-block .required-icon .text {
+	color: #B80000;
+	font-size: 26px;
+    margin: 4px 0px 0px 10px;
+}
+
+label.forgot-password-text{
+	text-transform: initial;
+	margin-bottom: 10px;
+}
+
+.recreations-review-box{
+	float: right;
+}
+.recreations-review-box .five-stars-container{
+	margin-right: 6px;
+}
+.recreations-review-box .review{
+	vertical-align: top;
+}
+.btn-large a{
+	display: block;
+    color: #fff;
+}
+.overall-rating .score{
+	float: right;
+	font-size: 2em;
+	margin-left: 10px;
+	margin-top: 6px;
+}
+
+.month-of-travel.dropdown-menu label{
+    font-weight: 700;
+    padding-bottom: 4px;
+    width: 100%;
+    margin: 0;
+}
+.month-of-travel ul.month-list li.active{
+    border: 1px solid #01b7f2;
+	color: #01b7f2;
+}
+.month-of-travel ul.month-list li:hover {
+    border: 1px solid #01b7f2;
+	color: #01b7f2;
+}
+.dropdown .month-of-travel{
+	padding: 15px 0 0 15px;
+}
+.month-of-travel .month-list li {
+    width: 28%;
+    border: 1px solid 	#838383;
+    text-align: center;
+    display: inline-block;
+    margin-bottom: 8px;
+    margin-right: 3.5%;
+    cursor: pointer;
+}
+.month-of-travel.dropdown-menu li{
+    padding: 5px 0;
+	font-size: 13px;
+	cursor: pointer;
+}
+.dropdown ul.month-list{
+	margin-bottom: 10px;
+}
+.panel-content ul.month-list + ul.month-list{
+	margin-top: 10px;
+}
+.panel-content .month-of-travel li {
+    padding: 10px 0;
+    font-size: 13px;
+    cursor: pointer;
+    line-height: 13px;
+}
+
+.select-dropdown-filter-container .selector.dropdown{
+	cursor: initial;
+}
+.select-dropdown-filter-container .dropdown-toggle{
+	cursor: pointer;
+}
+.select-dropdown-filter .ui-slider, .select-dropdown-filter .ui-slider a{
+	cursor: pointer;
+}
+.panel-content .month-of-travel label{
+    font-weight: 700;
+    padding-bottom: 4px;
+    font-size: 14px;
+    width: 100%;
+    margin: 0;
+}
+.amenities hr{
+	margin: 12px 0 12px 0;
+}
+
+@media (max-width: 1200px) {
+	.sort-by-section .search-questions.pull-right{
+		float: left !important;
+	}
+}
+
+
+
+.tour-listing .details .price small{
+	margin-top: 3px;
+    text-transform: capitalize;
+}
+.tour-listing .button.btn-small{
+	text-transform: uppercase;
+}
+.tour-listing .details b{
+	/*height: 19px;*/
+	padding: 0 10px;
+	display: inline-block;
+	background: #fdb714;
+	line-height: 1.8333em;
+	white-space: nowrap;
+	text-align: center;
+	color: #fff;
+}
+.tour-listing .details [class^="col-"]{
+	padding: 0px;
+}
+.amenities-inline li{
+	float: left;
+	text-align: center;
+}
+
+.amenities-inline li span{
+	display: block;
+}
+.listing-style3.hotel .details .amenities-inline [class^="soap-icon"].circle {
+    margin-right: 0;
+    margin-top: 0;
+}
+.amenities-inline li + li{
+	padding-left: 12px;
+}
+
+.tour-details-section{
+	margin-top: 30px;
+}
+#tour-availability .update-search .row{
+    margin-left: -5px;
+    margin-right: -5px;
+}
+#tour-availability .update-search [class^="col-"]{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+#tour-availability .update-search{
+    border: 15px solid #f5f5f5;
+    background: #fff;
+    padding: 20px 20px 0;
+}
+#tour-write-review .main-rating{
+	margin-bottom: 20px;
+}
+#tour-write-review .intro.table-wrapper{
+	padding: 0;
+	border-spacing: 15px;
+	border-collapse: separate;
+	table-layout: fixed;
+}
+#tour-write-review .main-rating{
+	margin-bottom: 20px;
+}
+#tour-write-review .intro{
+	background: #f5f5f5;
+}
+#tour-write-review .intro.table-wrapper .table-cell:first-child{
+	margin-bottom: 15px;
+}
+#tour-write-review .intro.table-wrapper .table-cell:last-child{
+	padding-left: 0;
+	padding-right: 0;
+}
+#tour-write-review .intro.table-wrapper .table-cell{
+ 	background: #fff;
+}
+#tour-write-review .intro.table-wrapper > *{
+ 	border-collapse: collapse;
+}
+.itinerary-description{
+	margin-top: 15px;
+}
+.tour-itinerary-content .box-title{
+	margin: 0 0 15px;
+}
+.tour-itinerary-content .box-title small{
+	line-height: 1.5em;
+	letter-spacing: 0.04em;
+	font-size: 10px;
+	display: flex;
+}
+.tour-itinerary-content .box-title small i{
+	font-size: 1.5em;
+	margin-right: 3px;
+}
+
+
+
